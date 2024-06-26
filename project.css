@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgba(0, 0, 0, 0.7) url(image/burger-king-cheeseburger-1666891208.jpg) center center fixed;
+background-size: cover;
+background-blend-mode:darken ;
+font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container h1{
+    color: orangered;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.navbar ul li a{
+    text-decoration: 0;
+    color: rgb(14, 9, 9);
+    padding: 4px;
+    transition: 2s;
+}
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px orangered inset;
+}
+.navbar .reservation{
+    padding: 8px;
+    background-color: orangered;
+}
+.contact{
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 30%;
+}
+.contact h3{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 250px;
+}
+.contact h1{
+    font-size: 40px;
+    width: 100%;
+    margin: right 75%;;
+    font-size: 45px;
+    text-align: center;
+}
+.contact p{
+    text-align: left;
+    margin-top: 17px;
+    width: 100%;
+    align-items:center;
+    font-size: 15px;
+}
+.search{
+    position: absolute;
+    margin-top: 24%;
+    margin-left: 46%;
+
+
+}
+.search input{
+    outline: none;
+    border: none;
+    padding: 12px 30px;
+    size: 1em;
+    width: 100%;
+}
+.sumbit{
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 51%;
+     text-decoration: none;
+    color: white;
+    padding: 12px;
+    background-color: orangered;
+}
+.sumbit a{
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    background-color: orangered;
+}
